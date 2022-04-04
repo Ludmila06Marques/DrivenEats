@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,7 @@
 
     <title>Driven-Eats</title>
 </head>
-<body>
+<body >
 
     <div class="topo">
         <div class="texto">
@@ -21,115 +21,155 @@
     </div>
     </div>
 
-
    
     <div class="centro">
         <div class="bloquinhos">
-            <div class=" principal">
+            <div class=" principal escolhercomida">
                 <h1>Primeiro, seu prato</h1>
             </div>
             <div class="bloco ">
-            <div class="opcoes">
-                <div class="opcao">
+            <div class="opcoes ">
+             
+                <div  id="frango" class="opcao " onclick=" selfrango(this) " >
+                    
                     <img src="/img/frango_yin_yang 1.png"/>
                     <div class="descricao">
                     <h1>Frango Yin Yang</h1>
-                    <h2>Um pouco de batata, um pouco de salada</h2>
+                    <h2>Batata e salada</h2>
                     <h3>R$ 14,90</h3>
                     </div>
+                     <div  class="icon escondido" >
+                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                     </div>
+                  
                 </div>
-                <div class="opcao">
+
+         
+         
+                <div id="feijoada" class="opcao " onclick=" selfeijoada(this) ">
                     <img src="/img/feijoada.PNG"/>
                     <div class="descricao">
                     <h1>Feijoada</h1>
-                    <h2>Arroz, feijao, farofa e couve</h2>
+                    <h2>Arroz, feijao, farofa </h2>
                     <h3>R$ 18,90</h3>
                     </div>
+                    <div class="icon  escondido">
+                        <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+                        </div>
                 </div>
-                <div class="opcao">
+         
+                <div id="strogonoff" class="opcao " onclick=" selstrogonoff(this) ">
                     <img src="/img/Strogonoff.PNG"/>
                     <div class="descricao">
-                    <h1>Strogonoff de frango</h1>
-                    <h2>Um pouco de batata, um pouco de arroz</h2>
+                    <h1>Strogonoff</h1>
+                    <h2>Batata E arroz</h2>
                     <h3>R$ 15,90</h3>
                     </div>
+                    <div class="icon  escondido">
+                        <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+                        </div>
                 </div>
-                <div class="opcao">
+         
+             
+                <div id="macarrao" class="opcao " onclick=" selmacarrao(this) ">
                     <img src="/img/macarrao.PNG"/>
                     <div class="descricao">
-                    <h1>Macarrão com carne</h1>
-                    <h2>Delicioso macarrao com carne e tomate</h2>
+                    <h1>Macarrão </h1>
+                    <h2> Carne e tomate</h2>
                     <h3>R$ 10,90</h3>
                     </div>
+                    <div class="icon escondido ">
+                        <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+                        </div>
                 </div>
-                <div class="opcao">
+         
+             
+                <div id ="bife" class="opcao "onclick=" selbife(this) ">
                     <img src="/img/bife.PNG"/>
                     <div class="descricao">
                     <h1>Contra-filé</h1>
-                    <h2>Arroz, feijao, batata frita, salada.</h2>
+                    <h2>Batata frita, salada.</h2>
                     <h3>R$ 14,90</h3>
                     </div>
+                    <div class="icon escondido">
+                        <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+                        </div>
                 </div>
+          
            </div>
         </div>
         </div>
         <div class="bloquinhos">
-            <div class=" bebida">
+            <div class=" bebida escolherbebida">
                 <h1>Agora, sua bebida</h1>
             </div>
             <div class="bloco ">
-            <div class="opcoes ">
-                <div class="opcao">
+            <div class="opcoes">
+                <div id="coca"class="opcao " onclick="selcoca(this) ">
                     <img src="/img/coquinha_gelada 2.png"/>
                     <div class="descricao">
                     <h1>Coquinha gelada</h1>
                     <h2>Lata 350ml</h2>
-                    <h3>R$ 4,90</h3>
+                    <h3>R$ 4,90</h3> 
                     </div>
+                    <div class="icone escondido ">
+                        <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+                        </div>
+                
                 </div>
-                <div class="opcao ">
+                <div id="guarana" class="opcao " onclick="selguarana(this) ">
                     <img src="/img/Capturaguara.PNG"/>
                     <div class="descricao">
                     <h1>Guaraná</h1>
                     <h2>Lata 350ml</h2>
                     <h3>R$ 4,90</h3>
                     </div>
+                    <div class="icon escondido ">
+                        <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+                        </div>
                 </div>
                 
-                <div class="opcao">
+                <div id="fanta" class="opcao  " onclick="selfanta(this) ">
                     <img src="/img/Capturafanta.PNG"/>
                     <div class="descricao">
                     <h1>Fanta laranja</h1>
                     <h2>Lata 350ml</h2>
                     <h3>R$ 4,90</h3>
                     </div>
+                    <div class="icon escondido">
+                        <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+                        </div>
                 </div>
-                <div class="opcao">
+                <div id="laranja"class="opcao" onclick="sellaraja(this) ">
                     <img src="/img/Capturasucolaranja.PNG"/>
                     <div class="descricao">
                     <h1>Suco de laranja</h1>
                     <h2>Garrafa 500 ml</h2>
                     <h3>R$ 6,90</h3>
                     </div>
+                    <div class="icon escondido">
+                        <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+                        </div>
                 </div>
-                <div class="opcao">
+                <div id="uva"class="opcao " onclick="seluva(this) ">
                     <img src="/img/Capturasucouva.PNG"/>
                     <div class="descricao">
                     <h1>Suco de uva</h1>
                     <h2>Garrafa 500 ml</h2>
                     <h3>R$ 6,90</h3>
                     </div>
+                    
                 </div>
            </div>
         </div>
         </div>
         <div class="bloquinhos">
-            <div class="  sobremesa">
+            <div class="  sobremesa escolhersobremesa">
                 <h1>Por fim, sua sobremesa</h1>
             </div>
             <div class="bloco ">
             <div class="opcoes">
-                <div class="opcao">
+                <div id="pudim" class="opcao " onclick="selpudim(this) ">
                     <img src="/img/pudim 1.png"/>
                     <div class="descricao">
                     <h1>Pudim</h1>
@@ -137,35 +177,35 @@
                     <h3>R$ 5,90</h3>
                     </div>
                 </div>
-                <div class="opcao">
+                <div id="arrozdoce" class="opcao arrozdoce" onclick="selarrozdoce(this) ">
                      <img src="/img/arrozdoce.PNG"/>
                     <div class="descricao">
                     <h1>Arroz doce</h1>
-                    <h2>Delicioso arroz doce com canela </h2>
+                    <h2> Com canela </h2>
                     <h3>R$ 5,90</h3>
                     </div>
                 </div>
-                <div class="opcao">
+                <div id="brigadeiro" class="opcao " onclick="selbrigadeiro(this) ">
                     <img src="/img/brigadeiro.PNG"/>
                     <div class="descricao">
                     <h1>Brigadeiro</h1>
-                    <h2>Uma bolinha deliciosa</h2>
+                    <h2>Chocolate</h2>
                     <h3>R$ 1,90</h3>
                     </div>
                 </div>
-                <div class="opcao">
+                <div id="maracuja" class="opcao " onclick="selmaracuja(this) ">
                     <img src="/img/maracuja.PNG"/>
                     <div class="descricao">
-                    <h1>Mousse de maracujá</h1>
-                    <h2>Cremoso e delicioso</h2>
+                    <h1>Mousse </h1>
+                    <h2>Maracuja</h2>
                     <h3>R$ 4,90</h3>
                     </div>
                 </div>
-                <div class="opcao">
+                <div id="curau"class="opcao " onclick="selcurau(this) ">
                     <img src="/img/curau.PNG"/>
                     <div class="descricao">
                     <h1>Curau de milho</h1>
-                    <h2>Delicioso curau com canela</h2>
+                    <h2>Canela</h2>
                     <h3>R$ 4,90</h3>
                     </div>
                 </div>
@@ -174,26 +214,16 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
     <div class="barra">
-        <div class="finalizar">
+        <div class="finalizar " onclick="finalizarPedido()">
                 <h3>Selecione os 3 itens
                 <br>para fechar o pedido <br></h3>
         </div>
     </div>
+  
     
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
